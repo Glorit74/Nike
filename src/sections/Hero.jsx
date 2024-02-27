@@ -6,13 +6,13 @@ import { bigShoe1 } from "../assets/images";
 import { useState } from "react";
 
 const Hero = () => {
-	const [bigShoeImg, setBigShoeImg] =useState(bigShoe1)
+  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
   return (
     <section
       id="home"
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-12 max-container"
     >
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full pt-28 pl-20">
+      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collection
         </p>
@@ -49,9 +49,9 @@ const Hero = () => {
           height={500}
           className="object-contained relative z-10"
         />
-        <div className="absolute flex items-center gap-10 -bottom-12">
-          {shoes.map((shoeImg, index) => (
-            <div key={index}>
+        <div className=" flex sm:gap-6 gap-4 absolute lg:gap-10  -bottom-[5%] max-sm:px-6">
+          {shoes.map((shoeImg) => (
+            <div key={shoeImg}>
               <ShoeCard
                 shoeURL={shoeImg}
                 bigShoeImage={bigShoeImg}
