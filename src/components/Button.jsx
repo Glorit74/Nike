@@ -5,7 +5,7 @@ const Button = ({ label, iconURL }) => {
       <img
         src={iconURL}
         alt="right arrow"
-        className="ml2 rounded-full w-5 h-5"
+        className={`ml2 ${iconURL == "" ? "w-0 h-0" : "w-5 h-5 rounded-full"}`}
       />
     </button>
   );
