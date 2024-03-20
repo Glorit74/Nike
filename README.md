@@ -1,8 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This site is made with help of JavaScript Mastery tutorial.
 
-Currently, two official plugins are available:
+Thank you very much for helping me to learn and love tailwind. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Tailwind CSS Full Course 2023 | Build and Deploy a Nike Website](https://www.youtube.com/watch?v=tS7upsfuxmo) 
