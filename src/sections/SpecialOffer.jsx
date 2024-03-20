@@ -4,11 +4,11 @@ import { offer } from "../assets/images";
 
 const SpecialOffer = () => {
   return (
-    <section className="max-container flex flex-col max-xl:flex-row-reverse item-center gap-10">
+    <section className="max-container flex flex-col lg:flex-row item-center gap-10">
       <main className="flex flex-1 flex-col gap-6">
-        <h2 className="font-palanquin font-bold text-4xl">
+        <h3>
           Special <span className="text-coral-red">Offer</span>
-        </h2>
+        </h3>
         <p className="info-text">
           Embark on a shopping journey that redefines your experience with
           unbeatable deals. From premier selections to incredible savings, we
@@ -29,7 +29,7 @@ const SpecialOffer = () => {
           />
         </div>
       </main>
-      <div className="flex-1 flex justify-center">
+      <div className="md:flex-1 flex justify-center">
         <img
           src={offer}
           alt="offer"
